@@ -2,7 +2,9 @@
 The purpose of this challenge is to calculate mainly the yearly changes, percent change and Total stock volume from the list of stocks and their respective values below. 
 We will also calculate the Greatest Percentage Increase, Decrease and Total Volume for all stocks. 
 
-
+Output #1 - Ali.jpg
+Output #1.jpg
+Are both 2018 Multiple_year data
 
 Resources:
 
