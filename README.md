@@ -5,9 +5,12 @@ We will also calculate the Greatest Percentage Increase, Decrease and Total Volu
 Output #1 - Ali.jpg
 Output #1.jpg
 Are both 2018 Multiple_year data
+Output #2
+is 2019 multiple_year 
+Output #3
+is 2020 multiple_year
 
 Resources:
-
 Most of the code is written by me. Refering back to the lectures to reflect lastrows "ColumnLastRow = ws.Cells(ws.Rows.Count, 1).End(xlUp).Row".
 
 I did use Udemy to re learn some concepts that I had forgotten: ![image](https://github.com/Mohammed-a-ali01/VBA-Challenge/assets/81397577/039801f9-8735-44dc-8061-bdef091dada0)
