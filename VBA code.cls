@@ -27,7 +27,7 @@ Sub MultipleYearStockData()
         GreatestVolume = 0
         
         wsName = ws.Name
-        
+        'Create our strings
         ws.Cells(1, 9).Value = "Ticker"
         ws.Cells(1, 10).Value = "Yearly Change"
         ws.Cells(1, 11).Value = "Percent Change"
@@ -47,7 +47,7 @@ Sub MultipleYearStockData()
                 ws.Cells(TickerCounter, 9).Value = ws.Cells(initialCheck, 1).Value
                 
                 ws.Cells(TickerCounter, 10).Value = ws.Cells(initialCheck, 6).Value - ws.Cells(endCheck, 3).Value
-                
+               'Conditional Statments ie Color setting 
                 If ws.Cells(TickerCounter, 10).Value < 0 Then
                     ws.Cells(TickerCounter, 10).Interior.ColorIndex = 3
                 Else
@@ -87,7 +87,7 @@ Sub MultipleYearStockData()
                 'Increase TickerCounter by 1
                 TickerCounter = TickerCounter + 1
                 
-                'Set new start row of the ticker block
+             
                 endCheck = initialCheck + 1
             End If
         Next initialCheck
